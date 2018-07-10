@@ -6,6 +6,10 @@ A simple python script to move files
 
 Version 0.0.0
 
+Only 2kb
+
+Example usage: move all images from desktop to pictures
+
 # install and run
 
 first time install:
