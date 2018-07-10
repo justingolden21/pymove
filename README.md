@@ -17,6 +17,12 @@ run it:
 
 <code>py move.py</code>
 
+that's it!
+
+# note
+
+if <code>py move.py</code> doesn't work, try <code>python move.py</code>
+
 # share
 
 https://github.com/justingolden21/pymove
