@@ -14,19 +14,27 @@ Example usage: move all images from desktop to pictures
 
 # install and run
 
-first time install:
+## first time install:
 
 <code>git clone https://github.com/justingolden21/pymove.git</code>
 
-run it:
+## run it:
 
 <code>cd pymove</code>
 
 <code>py move.py</code>
 
-that's it!
+## update it:
 
-# note
+<code>cd pymove</code>
+
+<code>git pull</code>
+
+## then run it with:
+
+<code>py move.py</code>
+
+# notes
 
 if <code>py move.py</code> doesn't work, try <code>python move.py</code>
 
@@ -40,11 +48,6 @@ if you don't have git, you can just download this repo from the button that look
 
 https://github.com/justingolden21/pymove
 
-# version history
-
-0.0.1 - added file extensions
-0.0.0 - initial release
-
 # about
 
 MIT License
@@ -52,3 +55,8 @@ MIT License
 Made by Justin Golden
 
 https://github.com/justingolden21
+
+## version history
+
+0.0.1 - added file extensions
+0.0.0 - initial release
