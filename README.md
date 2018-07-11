@@ -1,6 +1,6 @@
 # pymove
 
-A simple python script to move files
+A simple python script to move files on windows
 
 You need python 3 to run pymove
 
@@ -43,6 +43,8 @@ if you don't have python, you need to install python 3 first
 if you don't have git, you can just download this repo from the button that looks like:
 
 !["Download button"](https://i.imgur.com/0m1ReJp.png "Download Button")
+
+move1.py is the beta version. use with caution.
 
 # share
 
