@@ -1,12 +1,10 @@
+#v.0.0.1
 import shutil
 import os
-from pathlib import Path
-
 #works on windows 10
-
 folders = ("desktop", "documents", "downloads", "music", "pictures", "videos")
 fileTypes = ("images", "videos", "audio", "documents")
-extensions = {"images": (".jpg", ".gif", ".png"), "videos": (".avi", ".flv", ".wmv", ".mov", ".mp4"), "audio": (".wav", ".mp3", ".wma", ".ogg"), "documents": (".doc", ".txt", ".pdf", ".rtf", ".sxw", ".stw") }
+extensions = {"images": (".jpg", ".gif", ".png"), "videos": (".avi", ".flv", ".wmv", ".mov", ".mp4"), "audio": (".wav", ".mp3", ".wma", ".ogg"), "documents": (".doc", ".docx", ".txt", ".pdf", ".rtf", ".sxw", ".stw") }
 
 def getItem(items, message):
     print(message)
@@ -21,8 +19,8 @@ def getItem(items, message):
 sourceFolder = getItem(folders, "Which folder would you like to move from?")
 destFolder = getItem(folders, "Which folder would you like to move to?") 
 
-source = str(Path.home()) + "/" + sourceFolder + "/"
-dest = str(Path.home()) + "/" + destFolder + "/"
+source = "C:/Users/" + os.getlogin() + "/" + sourceFolder + "/"
+dest = "C:/Users/" + os.getlogin() + "/" + destFolder + "/"
 
 fileType = getItem(fileTypes, "Which type of file would you like to move?")
 
