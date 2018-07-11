@@ -2,9 +2,11 @@
 import shutil
 import os
 #works on windows 10
+
 folders = ("desktop", "documents", "downloads", "music", "pictures", "videos")
 fileTypes = ("images", "videos", "audio", "documents")
-extensions = {"images": (".jpg", ".gif", ".png"), "videos": (".avi", ".flv", ".wmv", ".mov", ".mp4"), "audio": (".wav", ".mp3", ".wma", ".ogg"), "documents": (".doc", ".docx", ".txt", ".pdf", ".rtf", ".sxw", ".stw") }
+#https://fileinfo.com/filetypes/common
+extensions = {"images": (".jpg", ".gif", ".png", ".tiff", ".tif", ".yuv", ".thm", ".tga", ".pspimage", ".psd", ".dds", ".bmp"), "videos": (".3g2", ".3gp", ".asf", ".avi", ".flv", ".m4v", ".mov", ".mp4", ".mpg", ".rm", ".srt", ".swf", ".vob", ".wmv"), "audio": (".wav", ".mp3", ".mpa", ".wma", ".ogg", ".mid", ".m4a", ".m3u", ".iff", ".aif"), "documents": (".doc", ".docx", ".log", ".msg", ".otd", ".pages", ".rtf", ".tex", ".txt", ".pdf", ".wpd", ".wps", ".sxw", ".stw", ".csv", ".dat", ".pps", ".ppt", ".pptx", ".xlr", ".xls", ".xlsx", ".indd", ".pct", ".ai", ".eps", ".ps", ".svg") }
 
 def getItem(items, message):
     print(message)
