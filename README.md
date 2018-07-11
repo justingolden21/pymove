@@ -1,8 +1,10 @@
 # pymove
 
-WARNING: only tested on windows 10
-
 A simple python script to move files
+
+You need python 3 to run pymove
+
+WARNING: only tested on windows 10
 
 Version 0.0.0
 
