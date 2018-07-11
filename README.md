@@ -6,7 +6,7 @@ You need python 3 to run pymove
 
 WARNING: only tested on windows 10
 
-Version 0.0.0
+Version 0.0.1
 
 Only 2kb
 
@@ -39,6 +39,11 @@ if you don't have git, you can just download this repo from the button that look
 # share
 
 https://github.com/justingolden21/pymove
+
+# version history
+
+0.0.1 - added file extensions
+0.0.0 - initial release
 
 # about
 
